@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #09090e;
+    --surface: #0f0f17;
+    --surface2: #141420;
+    --border: rgba(255, 255, 255, 0.07);
+    --border2: rgba(255, 255, 255, 0.13);
+    --text: #ffffff;
+    --muted: rgba(255, 255, 255, 0.38);
+    --sub: rgba(255, 255, 255, 0.58);
+    --accent: #f4c24d;
+    --accent2: #f3ad62;
+    --green: #04884d;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  input,
+  textarea,
+  select {
+    outline: none;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    color: var(--sub);
+  }
+
+  select option {
+    background: var(--surface2);
+    color: var(--text);
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  @keyframes pulse-dot {
+
+    0%,
+    100% {
+      opacity: 1
+    }
+
+    50% {
+      opacity: .35
+    }
+  }
+
+  @keyframes bounce-dot {
+
+    0%,
+    60%,
+    100% {
+      transform: translateY(0)
+    }
+
+    30% {
+      transform: translateY(-5px)
+    }
+  }
+
+  @keyframes fab-glow {
+
+    0%,
+    100% {
+      opacity: .5
+    }
+
+    50% {
+      opacity: 1
+    }
+  }
+
+  .animate-pulse-dot {
+    animation: pulse-dot 2s infinite;
+  }
+
+  .animate-bounce-dot {
+    animation: bounce-dot 1.2s infinite;
+  }
+
+  .animate-bounce-dot-2 {
+    animation: bounce-dot 1.2s infinite 0.2s;
+  }
+
+  .animate-bounce-dot-3 {
+    animation: bounce-dot 1.2s infinite 0.4s;
+  }
+
+  .animate-fab-glow {
+    animation: fab-glow 2.5s ease-in-out infinite;
+  }
+
+  .animate-fab-glow-dl {
+    animation: fab-glow 2s ease-in-out infinite 0.5s;
+  }
+
+  .hero-grid-bg {
+    background-image:
+      linear-gradient(rgba(124, 110, 245, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(124, 110, 245, 0.035) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  .border-half {
+    border-width: 0.5px;
+  }
+
+  .border-b-half {
+    border-bottom-width: 0.5px;
+  }
+
+  .border-t-half {
+    border-top-width: 0.5px;
+  }
+
+  .border-l-half {
+    border-left-width: 0.5px;
+  }
+
+  .border-r-half {
+    border-right-width: 0.5px;
+  }
+}
