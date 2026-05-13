@@ -8,7 +8,7 @@ export default function HeroRight() {
 
       {/* Resume download card */}
       <a
-        href="/Resume-PreethikaR.pdf"
+        href="/api/resume"
         download="Resume-PreethikaR.pdf"
         className="bg-[var(--surface)] border-half border-[var(--border2)] rounded-[14px] px-5 py-5 flex items-center justify-between gap-3 hover:border-[rgba(94,234,212,0.4)] transition-colors cursor-pointer"
       >
