@@ -18,8 +18,8 @@ export default function DownloadToast({ visible }: DownloadToastProps) {
         <DownloadIcon size={16} />
       </div>
       <div>
-        <div className="text-[13px] font-medium text-white mb-0.5">Resume_YourName_2025.pdf</div>
-        <div className="text-[11px] text-[var(--muted)]">Downloading… 142 KB</div>
+        <div className="text-[13px] font-medium text-white mb-0.5">Resume-PreethikaR.pdf</div>
+        <div className="text-[11px] text-[var(--muted)]">Downloading… </div>
       </div>
     </div>
   );
