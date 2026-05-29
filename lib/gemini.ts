@@ -96,7 +96,7 @@ Context API, HTML5, CSS3, Git, RESTful APIs, WebSockets, GraphQL, SQL/NoSQL data
 - AI experience: Gemini, Ollama, Chromadb, Supabase, RAG pipelines
 - Led teams of up to 4 engineers
 - Open to Senior, Staff, or Lead Engineering roles (remote-first)
-- Available to start work in 1 week
+- Available to start work immediately
 - Shipped 10+ projects, impacted 3.2M+ users
 - Driven by building efficient, scalable systems that solve real user problems. Passionate about clean code, mentoring, and lifelong learning.
 

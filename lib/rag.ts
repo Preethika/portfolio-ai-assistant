@@ -54,11 +54,11 @@ export const PORTFOLIO_KNOWLEDGE: Array<{ content: string; metadata: Record<stri
     metadata: { section: 'summary' },
   },
   {
-    content: 'I am actively exploring Senior, Staff, and Lead Engineering roles and am available within 1 week of an accepted offer.',
+    content: 'I am actively exploring Senior, Staff, and Lead Engineering roles and am available immediately.',
     metadata: { section: 'opportunities' },
   },
   {
-    content: 'Most impactful project: AI-resume assistant. Developed an AI-powered interactive resume platform enabling recruiters to explore candidate experience through conversational interactions. Built a resume-trained chatbot capable of answering questions about skills, projects, achievements, and work experience. Designed RAG-based retrieval pipeline to generate grounded and accurate responses from resume data. Integrated streaming AI responses for a real-time conversational experience. Deployed scalable full stack architecture with cloud-hosted frontend and backend services Stack: Next.js, FastAPI, Kafka, pgvector, Ollama.',
+    content: 'Most impactful projects: 1. AI workspace platform. Led design and development of a full-stack AI-powered workspace supporting conversational AI, semantic document search, data insights and document analysis. Built hybrid semantic search using embeddings, ChromaDB, keyword ranking, and RAG pipelines. Integrated streaming responses and context-aware conversational workflows. Stack: React, Node.js, TypeScript, Ollama, ChromaDB, SQLite, Tailwind CSS. 2. AI - resume assistant.Developed an AI- powered interactive resume platform enabling recruiters to explore candidate experience through conversational interactions.Built a resume - trained chatbot capable of answering questions about skills, projects, achievements, and work experience.Designed RAG - based retrieval pipeline to generate grounded and accurate responses from resume data.Integrated streaming AI responses for a real - time conversational experience.Deployed scalable full stack architecture with cloud - hosted frontend and backend services Stack: Next.js, FastAPI, Kafka, pgvector, Ollama.',
     metadata: { section: 'projects', project: 'ai-analytics' },
   },
   {
